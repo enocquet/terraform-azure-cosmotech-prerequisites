@@ -168,3 +168,7 @@ variable "user_app_role" {
   }))
   description = "App role for azuread_application"
 }
+
+variable "image_path" {
+  type = string
+}
